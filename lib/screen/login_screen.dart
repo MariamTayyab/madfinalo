@@ -44,7 +44,7 @@ class _LoginScreenState extends State<LoginScreen> {
         child: SingleChildScrollView(
           child: Container(
             constraints: const BoxConstraints(
-              maxWidth: 560,
+              maxWidth: 570,
             ),
             padding: const EdgeInsets.symmetric(vertical: 100, horizontal: 48),
             child: Form(
@@ -52,7 +52,7 @@ class _LoginScreenState extends State<LoginScreen> {
               child: Column(
                 children: <Widget>[
                   Image.asset('assets/images/thumbtack_intro.png'),
-                  const SizedBox(height: 32),
+                  const SizedBox(height: 34),
                   const Text('Capture anything',
                     style: TextStyle(
                       fontSize: 26,
