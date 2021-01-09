@@ -152,11 +152,11 @@ class _HomeScreenState extends State<HomeScreen> with CommandHandler {
       child: Row(
         children: <Widget>[
           const Icon(AppIcons.checkbox, size: 27, color: kIconTintLight),
-          const SizedBox(width: 30),
+          const SizedBox(width: 29),
           const Icon(AppIcons.brush_sharp, size: 27, color: kIconTintLight),
-          const SizedBox(width: 30),
+          const SizedBox(width: 29),
           const Icon(AppIcons.mic, size: 26, color: kIconTintLight),
-          const SizedBox(width: 30),
+          const SizedBox(width: 29),
           const Icon(AppIcons.insert_photo, size: 27, color: kIconTintLight),
         ],
       ),
