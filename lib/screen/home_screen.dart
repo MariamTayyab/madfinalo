@@ -104,7 +104,7 @@ class _HomeScreenState extends State<HomeScreen> with CommandHandler {
   Widget _topActions(BuildContext context) => Container(
     // width: double.infinity,
     constraints: const BoxConstraints(
-      maxWidth: 725,
+      maxWidth: 720,
     ),
     padding: const EdgeInsets.symmetric(horizontal: 25),
     child: Card(
@@ -148,16 +148,16 @@ class _HomeScreenState extends State<HomeScreen> with CommandHandler {
     shape: const CircularNotchedRectangle(),
     child: Container(
       height: kBottomBarSize,
-      padding: const EdgeInsets.symmetric(horizontal: 17),
+      padding: const EdgeInsets.symmetric(horizontal: 18),
       child: Row(
         children: <Widget>[
-          const Icon(AppIcons.checkbox, size: 26, color: kIconTintLight),
+          const Icon(AppIcons.checkbox, size: 27, color: kIconTintLight),
           const SizedBox(width: 30),
-          const Icon(AppIcons.brush_sharp, size: 26, color: kIconTintLight),
+          const Icon(AppIcons.brush_sharp, size: 27, color: kIconTintLight),
           const SizedBox(width: 30),
           const Icon(AppIcons.mic, size: 26, color: kIconTintLight),
           const SizedBox(width: 30),
-          const Icon(AppIcons.insert_photo, size: 26, color: kIconTintLight),
+          const Icon(AppIcons.insert_photo, size: 27, color: kIconTintLight),
         ],
       ),
     ),
