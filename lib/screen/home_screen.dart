@@ -104,11 +104,11 @@ class _HomeScreenState extends State<HomeScreen> with CommandHandler {
   Widget _topActions(BuildContext context) => Container(
     // width: double.infinity,
     constraints: const BoxConstraints(
-      maxWidth: 720,
+      maxWidth: 725,
     ),
-    padding: const EdgeInsets.symmetric(horizontal: 20),
+    padding: const EdgeInsets.symmetric(horizontal: 25),
     child: Card(
-      elevation: 2,
+      elevation: 3,
       child: Padding(
         padding: EdgeInsets.symmetric(vertical: isNotAndroid ? 7 : 5),
         child: Row(
