@@ -24,6 +24,8 @@ class _HomeScreenState extends State<HomeScreen> with CommandHandler {
   /// `true` to show notes in a GridView, a ListView otherwise.
   bool _gridView = true;
 
+
+
   @override
   Widget build(BuildContext context) => AnnotatedRegion<SystemUiOverlayStyle>(
     value: SystemUiOverlayStyle.dark.copyWith(

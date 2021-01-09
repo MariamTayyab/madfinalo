@@ -6,6 +6,8 @@ import 'package:intl/intl.dart';
 
 import 'package:flt_keep/services.dart' show NoteQuery;
 
+
+
 /// Data model of a note.
 class Note extends ChangeNotifier {
   final String id;
