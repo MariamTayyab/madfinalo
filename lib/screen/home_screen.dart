@@ -104,16 +104,16 @@ class _HomeScreenState extends State<HomeScreen> with CommandHandler {
   Widget _topActions(BuildContext context) => Container(
     // width: double.infinity,
     constraints: const BoxConstraints(
-      maxWidth: 720,
+      maxWidth: 725,
     ),
-    padding: const EdgeInsets.symmetric(horizontal: 25),
+    padding: const EdgeInsets.symmetric(horizontal: 20),
     child: Card(
       elevation: 3,
       child: Padding(
         padding: EdgeInsets.symmetric(vertical: isNotAndroid ? 7 : 5),
         child: Row(
           children: <Widget>[
-            const SizedBox(width: 20),
+            const SizedBox(width: 25),
             InkWell(
               child: const Icon(Icons.menu),
               onTap: () => _scaffoldKey.currentState?.openDrawer(),
