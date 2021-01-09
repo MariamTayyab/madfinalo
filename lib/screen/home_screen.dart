@@ -25,7 +25,6 @@ class _HomeScreenState extends State<HomeScreen> with CommandHandler {
   bool _gridView = true;
 
 
-
   @override
   Widget build(BuildContext context) => AnnotatedRegion<SystemUiOverlayStyle>(
     value: SystemUiOverlayStyle.dark.copyWith(

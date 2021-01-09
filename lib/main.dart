@@ -19,7 +19,7 @@ class NotesApp extends StatelessWidget {
         title: 'Flutter Keep',
         theme: Theme.of(context).copyWith(
           brightness: Brightness.light,
-          primaryColor: Colors.white,
+          primaryColor: Colors.white60,
           accentColor: kAccentColorLight,
           appBarTheme: AppBarTheme.of(context).copyWith(
             elevation: 0,
