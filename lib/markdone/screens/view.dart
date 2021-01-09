@@ -1,7 +1,7 @@
 import 'dart:ui';
 import 'package:flutter-keep-master/data/models.dart';
-import 'package:firebaseAuth/screens/edit.dart';
-import 'package:firebaseAuth/services/database.dart';
+import 'package:flutter-keep-master/screens/edit.dart';
+import 'package:flutter-keep-master/services/database.dart';
 import 'package:flutter/cupertino.dart';
 import 'dart:async';
 import 'package:flutter/material.dart';
